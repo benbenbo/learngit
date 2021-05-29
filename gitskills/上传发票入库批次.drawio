@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-29T07:25:20.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="CvcrtIEbnpJM4YfhsK-_" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-29T08:35:52.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="IP_491CP0W1jZkeeATDE" version="14.7.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,11 +16,17 @@
         <mxCell id="XHn2JGM8GZ9QQ2l2qrSP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XHn2JGM8GZ9QQ2l2qrSP-3" target="XHn2JGM8GZ9QQ2l2qrSP-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="XHn2JGM8GZ9QQ2l2qrSP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.452;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XHn2JGM8GZ9QQ2l2qrSP-3" target="XHn2JGM8GZ9QQ2l2qrSP-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XHn2JGM8GZ9QQ2l2qrSP-3" value="&lt;span&gt;品种(明细表的lyProductCode)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="190" width="120" height="360" as="geometry" />
         </mxCell>
         <mxCell id="XHn2JGM8GZ9QQ2l2qrSP-4" value="&lt;span&gt;某个入库批次（明细）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="410" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XHn2JGM8GZ9QQ2l2qrSP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XHn2JGM8GZ9QQ2l2qrSP-11" target="XHn2JGM8GZ9QQ2l2qrSP-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XHn2JGM8GZ9QQ2l2qrSP-11" value="&lt;span&gt;某个入库批次（明细）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="410" y="490" width="120" height="60" as="geometry" />
@@ -43,8 +49,14 @@
         <mxCell id="XHn2JGM8GZ9QQ2l2qrSP-17" value="选中（批次维度）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="500" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XHn2JGM8GZ9QQ2l2qrSP-19" value="17家子公司之一（需要选择）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="XHn2JGM8GZ9QQ2l2qrSP-19" value="17家子公司之一（必选）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XHn2JGM8GZ9QQ2l2qrSP-23" value="入库表和入库明细表通过ysb_provider_id和in_warehouse_no进行关联查询，并通过ly_product_code关联basic_product表进行获取品种信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="710" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XHn2JGM8GZ9QQ2l2qrSP-26" value="按照品种的乐药编码进行排序，然后再给前端展示，因为勾选还是针对每个批次的，所以，维度还是按照批次的维度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="710" width="130" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
