@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T08:04:47.608Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="L6Az7Ur-_HG6Kurb1Doo" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T15:11:47.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="jVmuiVy_DzEsg5IEe3Id" version="14.7.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,6 +135,9 @@
         </mxCell>
         <mxCell id="cRMcEzwleX0gbHcNuWW9-7" value="入库批次batch_id+batch_no" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="280" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cRMcEzwleX0gbHcNuWW9-13" value="问题：以供应商，入库单号，批号，批次，乐药编号查询出来的明细可能存在多个，因为serial_number有可能不同，但是返利表的维度最多只是去到批次而已，因此如果直接计算返利金额，有可能有重复。&lt;br&gt;不过，我想返利明细只是代表了一个协议而已，如果有多个明细，那么这些明细也按这个协议的去返利就好了" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="760" width="230" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
