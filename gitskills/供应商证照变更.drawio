@@ -1,24 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T01:54:57.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="BDYzmIfde705mDVAoLD8" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T02:03:51.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="CNCfbLv9_SfwbR3ceVPg" version="14.7.3" type="github">
   <diagram id="MuM2rcwB8WFEZpYfHEtL" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="w8g7JoXlEAFD24_Oq2-e-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8g7JoXlEAFD24_Oq2-e-1" target="w8g7JoXlEAFD24_Oq2-e-2">
+        <mxCell id="w8g7JoXlEAFD24_Oq2-e-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8g7JoXlEAFD24_Oq2-e-1" target="w8g7JoXlEAFD24_Oq2-e-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w8g7JoXlEAFD24_Oq2-e-1" value="编辑供应商A及其证照列表a" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="w8g7JoXlEAFD24_Oq2-e-1" value="编辑供应商A及其证照列表a0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w8g7JoXlEAFD24_Oq2-e-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8g7JoXlEAFD24_Oq2-e-2" target="w8g7JoXlEAFD24_Oq2-e-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w8g7JoXlEAFD24_Oq2-e-2" value="新增的证照不带id&lt;br&gt;编辑的证照带id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="w8g7JoXlEAFD24_Oq2-e-2" value="请求证照列表a：&lt;br&gt;新增的证照不带id&lt;br&gt;编辑的证照带id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w8g7JoXlEAFD24_Oq2-e-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8g7JoXlEAFD24_Oq2-e-4" target="w8g7JoXlEAFD24_Oq2-e-7">
+        <mxCell id="w8g7JoXlEAFD24_Oq2-e-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8g7JoXlEAFD24_Oq2-e-4" target="w8g7JoXlEAFD24_Oq2-e-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="330" as="targetPoint" />
+            <mxPoint x="380" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w8g7JoXlEAFD24_Oq2-e-20" value="2.新增" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w8g7JoXlEAFD24_Oq2-e-6">
@@ -28,7 +28,7 @@
         </mxCell>
         <mxCell id="w8g7JoXlEAFD24_Oq2-e-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8g7JoXlEAFD24_Oq2-e-4" target="w8g7JoXlEAFD24_Oq2-e-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="400" as="targetPoint" />
+            <mxPoint x="580" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w8g7JoXlEAFD24_Oq2-e-21" value="2.编辑" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w8g7JoXlEAFD24_Oq2-e-8">
@@ -45,22 +45,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w8g7JoXlEAFD24_Oq2-e-4" value="查询数据库中的证照列表b，与请求中的列表a进行对比" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w8g7JoXlEAFD24_Oq2-e-7" value="处理新增：不带id的话直接进行插入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w8g7JoXlEAFD24_Oq2-e-9" value="带id的，首先要看数据库证照列表存不存在这个id，存在则进行更新，否则进行跳过不处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="370" width="120" height="80" as="geometry" />
+          <mxGeometry x="520" y="370" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="w8g7JoXlEAFD24_Oq2-e-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8g7JoXlEAFD24_Oq2-e-10" target="w8g7JoXlEAFD24_Oq2-e-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w8g7JoXlEAFD24_Oq2-e-10" value="对证照列表b中的id和证照列表a的id做一个差集操作，" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="355" width="120" height="110" as="geometry" />
+          <mxGeometry x="720" y="355" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="w8g7JoXlEAFD24_Oq2-e-11" value="&lt;span&gt;得出来的是在数据库中存在但是请求中不存在的证照id，给予删除操作&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="720" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w8g7JoXlEAFD24_Oq2-e-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8g7JoXlEAFD24_Oq2-e-22" target="w8g7JoXlEAFD24_Oq2-e-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w8g7JoXlEAFD24_Oq2-e-22" value="基于a0，创建请求证照列表a" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
