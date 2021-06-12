@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-06-12T03:20:51.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" version="14.7.6" etag="UFYXteeHPCAX-l9iGUfx" type="github"><diagram id="-4YEoh4UO5fpJRaEmix9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-12T03:27:37.918Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="Xay5ZZBIA3QA_GpI1oGo" version="14.7.6" type="github">
+  <diagram id="-4YEoh4UO5fpJRaEmix9" name="第 1 页">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U18HaT2dFje_xU8ATauM-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="120.00421052631577" width="160" height="126.31578947368422" as="geometry" />
+        </mxCell>
+        <mxCell id="U18HaT2dFje_xU8ATauM-1" value="www.123.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U18HaT2dFje_xU8ATauM-6">
+          <mxGeometry y="25.26315789473685" width="160" height="101.05263157894737" as="geometry" />
+        </mxCell>
+        <mxCell id="U18HaT2dFje_xU8ATauM-2" value="window浏览器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U18HaT2dFje_xU8ATauM-6">
+          <mxGeometry x="25" width="110" height="16.842105263157894" as="geometry" />
+        </mxCell>
+        <mxCell id="U18HaT2dFje_xU8ATauM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U18HaT2dFje_xU8ATauM-7" target="U18HaT2dFje_xU8ATauM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U18HaT2dFje_xU8ATauM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U18HaT2dFje_xU8ATauM-1" target="U18HaT2dFje_xU8ATauM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U18HaT2dFje_xU8ATauM-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="280" y="100" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="U18HaT2dFje_xU8ATauM-7" value="192.168.1.103:80" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="U18HaT2dFje_xU8ATauM-13">
+          <mxGeometry y="20" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="U18HaT2dFje_xU8ATauM-11" value="nginx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U18HaT2dFje_xU8ATauM-13">
+          <mxGeometry x="25" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U18HaT2dFje_xU8ATauM-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="520" y="57" width="120" height="263" as="geometry" />
+        </mxCell>
+        <mxCell id="U18HaT2dFje_xU8ATauM-8" value="127.0.0.1:8080" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="U18HaT2dFje_xU8ATauM-14">
+          <mxGeometry y="20" width="120" height="243" as="geometry" />
+        </mxCell>
+        <mxCell id="U18HaT2dFje_xU8ATauM-12" value="tomcat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U18HaT2dFje_xU8ATauM-14">
+          <mxGeometry x="30" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U18HaT2dFje_xU8ATauM-15" value="window通过配置hose文件，将www.123.com的解析IP设置为虚拟机IP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
