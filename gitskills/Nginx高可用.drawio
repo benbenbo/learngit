@@ -1,1 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2021-06-26T10:45:13.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" version="14.8.0" etag="4-7lrm458yTdo1gDmiy_" type="github"><diagram id="3ngCUvQDObr8_AWagMEK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-26T10:50:10.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="KI5gkjJ_96-CyZVKvHvB" version="14.8.0" type="github">
+  <diagram id="3ngCUvQDObr8_AWagMEK" name="第 1 页">
+    <mxGraphModel dx="1209" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jfUmKO8lMU-7Uk0IKgIi-1" target="jfUmKO8lMU-7Uk0IKgIi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-1" value="客户端" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jfUmKO8lMU-7Uk0IKgIi-2" target="jfUmKO8lMU-7Uk0IKgIi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="jfUmKO8lMU-7Uk0IKgIi-2" target="jfUmKO8lMU-7Uk0IKgIi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-2" value="Nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-3" value="tomcat1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-4" value="tomcat2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-8" value="万一Nginx宕机，那么请求转发的功能就停止了" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-9" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="310" as="sourcePoint" />
+            <mxPoint x="760" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jfUmKO8lMU-7Uk0IKgIi-11" target="jfUmKO8lMU-7Uk0IKgIi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="jfUmKO8lMU-7Uk0IKgIi-11" target="jfUmKO8lMU-7Uk0IKgIi-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-27" value="当Nginx1服务器宕机了&lt;br&gt;Nginx2充当&lt;br&gt;备份服务器的作用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jfUmKO8lMU-7Uk0IKgIi-24">
+          <mxGeometry x="0.2073" y="2" relative="1" as="geometry">
+            <mxPoint x="-29" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-11" value="客户端" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jfUmKO8lMU-7Uk0IKgIi-14" target="jfUmKO8lMU-7Uk0IKgIi-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jfUmKO8lMU-7Uk0IKgIi-14" target="jfUmKO8lMU-7Uk0IKgIi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-14" value="Nginx1&lt;br&gt;192.168.1.17" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-15" value="tomcat1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-16" value="tomcat2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="jfUmKO8lMU-7Uk0IKgIi-18" target="jfUmKO8lMU-7Uk0IKgIi-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="jfUmKO8lMU-7Uk0IKgIi-18" target="jfUmKO8lMU-7Uk0IKgIi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-18" value="Nginx2&lt;br&gt;192.168.1.18" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-22" value="Master" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="330" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jfUmKO8lMU-7Uk0IKgIi-23" value="BACKUP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="440" width="70" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
