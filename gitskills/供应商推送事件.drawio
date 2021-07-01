@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T01:48:09.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.2" etag="EmiStivHepD2WqANdRa9" type="github"><diagram id="UCqvMDaJ9Vpz9N2DDswh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-01T03:47:04.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="XyEqQFERTx7BGn5oEH2C" version="14.8.2" type="github">
+  <diagram id="UCqvMDaJ9Vpz9N2DDswh" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-7" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="720" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-1" value="供应商发送事件SupplierReviewPassedEvent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iKKN-D51cdZGFNAiCJsU-7">
+          <mxGeometry x="260" y="40" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-2" value="更新此供应商对应的ts_erp_sync_supplier记录为未推送状态（所有有记录的子公司）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iKKN-D51cdZGFNAiCJsU-7">
+          <mxGeometry x="260" y="200" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iKKN-D51cdZGFNAiCJsU-7" source="iKKN-D51cdZGFNAiCJsU-1" target="iKKN-D51cdZGFNAiCJsU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-8" value="供应商已核准发布的事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iKKN-D51cdZGFNAiCJsU-7">
+          <mxGeometry x="270" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-9" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="720" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-10" value="ERP回传供应商绑定关系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iKKN-D51cdZGFNAiCJsU-9">
+          <mxGeometry x="280" y="350" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-4" value="ERP每10分钟调用回传供应商绑定关系的接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iKKN-D51cdZGFNAiCJsU-9">
+          <mxGeometry x="275" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-5" value="如果当前能够根据入参的中台编码+子公司id查到ts_erp_sync_supplier记录，则直接根据入参的同步状态更新为推送或者未推送，否则新建一条记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iKKN-D51cdZGFNAiCJsU-9">
+          <mxGeometry x="275" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iKKN-D51cdZGFNAiCJsU-9" source="iKKN-D51cdZGFNAiCJsU-4" target="iKKN-D51cdZGFNAiCJsU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-12" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1080" width="720" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-13" value="供应商拉取逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iKKN-D51cdZGFNAiCJsU-12">
+          <mxGeometry x="265" y="475" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iKKN-D51cdZGFNAiCJsU-12" source="iKKN-D51cdZGFNAiCJsU-14" target="iKKN-D51cdZGFNAiCJsU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-14" value="ERP给定时间间隔" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iKKN-D51cdZGFNAiCJsU-12">
+          <mxGeometry x="240" y="35" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.533;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iKKN-D51cdZGFNAiCJsU-12" source="iKKN-D51cdZGFNAiCJsU-15" target="iKKN-D51cdZGFNAiCJsU-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-15" value="根据这个时间间隔，查所有的已核准，已冻结，并且mtime在这个间隔时间里面的供应商" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iKKN-D51cdZGFNAiCJsU-12">
+          <mxGeometry x="235" y="120" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iKKN-D51cdZGFNAiCJsU-12" source="iKKN-D51cdZGFNAiCJsU-16" target="iKKN-D51cdZGFNAiCJsU-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-16" value="异步，且并行，找当前公司的所有绑定关系，且status=1，且supplierId条件为上面时间间隔查出来的供应商" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iKKN-D51cdZGFNAiCJsU-12">
+          <mxGeometry x="230" y="260" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iKKN-D51cdZGFNAiCJsU-18" value="组装好，然后返回一个response列表给Erp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iKKN-D51cdZGFNAiCJsU-12">
+          <mxGeometry x="235" y="395" width="240" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
