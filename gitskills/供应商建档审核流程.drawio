@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T08:47:59.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="QiDuDTyineJzOBK-f6Cs" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-02T02:58:54.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="-WrRuUB3XYUPQr9ewvV7" version="14.8.3" type="github">
   <diagram id="JUoLyplBjpB3gphxths6" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,6 +11,9 @@
           <mxGeometry x="120" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AguCf1l3qL-BzieiZOaN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AguCf1l3qL-BzieiZOaN-3" target="AguCf1l3qL-BzieiZOaN-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_XAAXNo-ivbK55jwlrP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AguCf1l3qL-BzieiZOaN-3" target="T_XAAXNo-ivbK55jwlrP-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AguCf1l3qL-BzieiZOaN-3" value="供应商记录初始化为建档待审核状态" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -85,6 +88,9 @@
         </mxCell>
         <mxCell id="AguCf1l3qL-BzieiZOaN-26" value="供应商为已驳回状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="320" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_XAAXNo-ivbK55jwlrP-1" value="公司层状态初始化为待集团审核状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
