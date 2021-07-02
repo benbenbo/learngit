@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-02T03:03:20.855Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="CCwMfQGHDdUxDvUoeX4e" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-02T03:13:25.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="buJje9Cikfdv3U3oGN07" version="14.8.3" type="github">
   <diagram id="JUoLyplBjpB3gphxths6" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
         <mxCell id="AguCf1l3qL-BzieiZOaN-14" value="质量负责人审核" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" parent="AguCf1l3qL-BzieiZOaN-12" vertex="1">
           <mxGeometry x="60" y="330" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AguCf1l3qL-BzieiZOaN-15" value="保留为已引入状态（有效）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" parent="AguCf1l3qL-BzieiZOaN-12" vertex="1">
+        <mxCell id="AguCf1l3qL-BzieiZOaN-15" value="设置为有效状态，并更新供应商的mtime，推送更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" parent="AguCf1l3qL-BzieiZOaN-12" vertex="1">
           <mxGeometry x="60" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AguCf1l3qL-BzieiZOaN-23" value="删除此公司的采购信息，变成未引入状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" parent="AguCf1l3qL-BzieiZOaN-12" vertex="1">
