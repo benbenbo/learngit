@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T08:43:38.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="N5q7OHFBwe83wWQcqErg" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T08:55:08.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="FFItKRfvUNA1-ABPkjI4" version="14.8.6" type="github">
   <diagram id="mzLmkTchyPpx6X2ViSFh" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,7 +67,10 @@
         <mxCell id="Z1cNxyu3MpxTD4Wfr18r-17" value="&lt;span&gt;在release表查找重复客户&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="310" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Z1cNxyu3MpxTD4Wfr18r-22" value="覆盖失败，重复供应商已被修改，目前无重复" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="pHHVTFp6xTeJdK2sd_ww-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z1cNxyu3MpxTD4Wfr18r-22" target="Z1cNxyu3MpxTD4Wfr18r-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1cNxyu3MpxTD4Wfr18r-22" value="覆盖失败，重复供应商已被修改，目前无重复（目前没有提示这个）" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pHHVTFp6xTeJdK2sd_ww-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pHHVTFp6xTeJdK2sd_ww-1" target="Z1cNxyu3MpxTD4Wfr18r-4">
