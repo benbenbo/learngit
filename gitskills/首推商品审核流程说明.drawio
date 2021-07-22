@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T06:33:04.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="SFxLxHPeJj5_VFat6gMB" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T06:40:54.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="4nL3pqOWXoEXgl29ttcr" version="14.9.0" type="github">
   <diagram id="y5HlpPZMZLjtlvICjRYw" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,6 +37,12 @@
         <mxCell id="vTKfl69OnQjGCs4uk_6M-4" value="三审" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="440" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vTKfl69OnQjGCs4uk_6M-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="vTKfl69OnQjGCs4uk_6M-5" target="vTKfl69OnQjGCs4uk_6M-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTKfl69OnQjGCs4uk_6M-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="vTKfl69OnQjGCs4uk_6M-5" target="vTKfl69OnQjGCs4uk_6M-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vTKfl69OnQjGCs4uk_6M-5" value="审核通过" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="570" width="120" height="60" as="geometry" />
         </mxCell>
@@ -49,14 +55,35 @@
         <mxCell id="vTKfl69OnQjGCs4uk_6M-13" value="只能首推三审角色操作" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="430" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="vTKfl69OnQjGCs4uk_6M-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="vTKfl69OnQjGCs4uk_6M-18" target="vTKfl69OnQjGCs4uk_6M-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vTKfl69OnQjGCs4uk_6M-18" value="合同准备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTKfl69OnQjGCs4uk_6M-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="vTKfl69OnQjGCs4uk_6M-19" target="vTKfl69OnQjGCs4uk_6M-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vTKfl69OnQjGCs4uk_6M-19" value="导出合同模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="820" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vTKfl69OnQjGCs4uk_6M-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="vTKfl69OnQjGCs4uk_6M-20" target="vTKfl69OnQjGCs4uk_6M-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vTKfl69OnQjGCs4uk_6M-20" value="待上传" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTKfl69OnQjGCs4uk_6M-21" value="资质准备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTKfl69OnQjGCs4uk_6M-22" value="上传后到首推合同管理-待确认进行确认" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTKfl69OnQjGCs4uk_6M-28" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="680" width="570" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vTKfl69OnQjGCs4uk_6M-29" value="同级别的流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="vTKfl69OnQjGCs4uk_6M-28">
+          <mxGeometry x="230" y="30" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
