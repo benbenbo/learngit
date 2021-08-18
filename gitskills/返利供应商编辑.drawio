@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T10:02:16.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="SDb2Lxxg8_83HBeuk3QK" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-18T10:06:43.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="lQHAp3BCMRDeB8rjcA5Q" version="14.9.6" type="github">
   <diagram id="-yAz3KXv2Li3pUXSeUJh" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,11 +7,23 @@
         <mxCell id="Qi2F_NPSz92GtJcu_lA_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qi2F_NPSz92GtJcu_lA_-1" target="Qi2F_NPSz92GtJcu_lA_-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Qi2F_NPSz92GtJcu_lA_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qi2F_NPSz92GtJcu_lA_-1" target="Qi2F_NPSz92GtJcu_lA_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qi2F_NPSz92GtJcu_lA_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qi2F_NPSz92GtJcu_lA_-1" target="Qi2F_NPSz92GtJcu_lA_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Qi2F_NPSz92GtJcu_lA_-1" value="已核准编辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Qi2F_NPSz92GtJcu_lA_-2" value="一个以返利供应商形式引入的子公司进行编辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qi2F_NPSz92GtJcu_lA_-4" value="集团账号编辑供应商" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qi2F_NPSz92GtJcu_lA_-5" value="未引入的子公司编辑供应商" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
