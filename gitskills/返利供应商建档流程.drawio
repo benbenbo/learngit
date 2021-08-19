@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T03:54:58.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="U8R2o6ynxZObudLMBSNi" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T06:15:28.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="j_8xkOJGJfANmkxN-x8Y" version="14.9.6" type="github">
   <diagram id="1ZXl0wsC-SSkzUZcBMEo" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,10 @@
         <mxCell id="i2m7fi9K6x_Wjw0wpvUl-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i2m7fi9K6x_Wjw0wpvUl-2" target="i2m7fi9K6x_Wjw0wpvUl-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-2" value="某个子公司发起建档，填写基本信息以及采购信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i2m7fi9K6x_Wjw0wpvUl-2" target="i2m7fi9K6x_Wjw0wpvUl-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-2" value="某个子公司发起返利供应商建档，填写曾用名，供应商名称，税号，证照" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i2m7fi9K6x_Wjw0wpvUl-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i2m7fi9K6x_Wjw0wpvUl-5" target="i2m7fi9K6x_Wjw0wpvUl-9">
@@ -91,6 +94,39 @@
         </mxCell>
         <mxCell id="i2m7fi9K6x_Wjw0wpvUl-28" value="公司层状态初始化为待集团审核状态" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-29" value="集团层标记为返利供应商" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i2m7fi9K6x_Wjw0wpvUl-31" target="i2m7fi9K6x_Wjw0wpvUl-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-31" value="有别的子公司来引入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i2m7fi9K6x_Wjw0wpvUl-25" target="i2m7fi9K6x_Wjw0wpvUl-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-33" value="按返利供应商直接引入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i2m7fi9K6x_Wjw0wpvUl-35" target="i2m7fi9K6x_Wjw0wpvUl-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.392;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i2m7fi9K6x_Wjw0wpvUl-35" target="i2m7fi9K6x_Wjw0wpvUl-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-35" value="其他账号编辑为普通供应商" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i2m7fi9K6x_Wjw0wpvUl-25" target="i2m7fi9K6x_Wjw0wpvUl-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-37" value="按返利供应商引入，不可编辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i2m7fi9K6x_Wjw0wpvUl-38" value="按普通供应商引入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
