@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-11T08:28:35.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="gHp7yFOrK_9xHiSQsfNF" version="15.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-11T08:47:58.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Uh2VQ3WdU8u5KxlvNCZz" version="15.7.1" type="github">
   <diagram id="9YCllT6J75fHZdyW30Lp" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,11 +7,16 @@
         <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Qt3AQ6tV6oZPRFGrHNIX-2" target="Qt3AQ6tV6oZPRFGrHNIX-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2iO7tOr9S87eXJx4nzw7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qt3AQ6tV6oZPRFGrHNIX-2" target="2iO7tOr9S87eXJx4nzw7-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2iO7tOr9S87eXJx4nzw7-23" value="携带信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2iO7tOr9S87eXJx4nzw7-22">
+          <mxGeometry x="-0.1667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-2" value="销售出库" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="60" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="Qt3AQ6tV6oZPRFGrHNIX-3" target="Qt3AQ6tV6oZPRFGrHNIX-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2iO7tOr9S87eXJx4nzw7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qt3AQ6tV6oZPRFGrHNIX-3" target="2iO7tOr9S87eXJx4nzw7-4">
           <mxGeometry relative="1" as="geometry" />
@@ -29,11 +34,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-3" value="是否是历史溯源批次" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="175" y="180" width="190" height="80" as="geometry" />
+        <mxCell id="2iO7tOr9S87eXJx4nzw7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Qt3AQ6tV6oZPRFGrHNIX-3" target="Qt3AQ6tV6oZPRFGrHNIX-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-5" value="通过历史顺冲批次表判断【通过ysbProviderId+batchNo锁定】" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="180" width="200" height="80" as="geometry" />
+        <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-3" value="是否是历史溯源批次" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="175" y="270" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="Qt3AQ6tV6oZPRFGrHNIX-8" target="Qt3AQ6tV6oZPRFGrHNIX-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -54,11 +59,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-8" value="是否能够根据子公司+批次找到采购入库摊分明细" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="177.5" y="370" width="185" height="100" as="geometry" />
+        <mxCell id="2iO7tOr9S87eXJx4nzw7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="Qt3AQ6tV6oZPRFGrHNIX-8" target="2iO7tOr9S87eXJx4nzw7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2iO7tOr9S87eXJx4nzw7-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Qt3AQ6tV6oZPRFGrHNIX-8" target="2iO7tOr9S87eXJx4nzw7-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-8" value="是否能够根据子公司ysbProviderId+批次batchNo找到采购入库摊分明细【ts_allocation_purchase】" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="177.5" y="510" width="185" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-9" value="通过历史顺冲批次表【ts_history_batch_no】判断【通过ysbProviderId+batchNo锁定】" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="180" width="200" height="80" as="geometry" />
+          <mxGeometry x="600" y="270" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-10" value="采购入库摊分明细表【ts_allocation_purchase】上游供应商采购和子公司采购入库都会新增一条记录，如果是溯源批次且没有这个记录的话，就是有问题" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="380" width="200" height="80" as="geometry" />
@@ -83,22 +94,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-14" value="采购入库摊分明细是否有足够的剩余数量" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="177.5" y="680" width="185" height="100" as="geometry" />
+          <mxGeometry x="177.5" y="700" width="185" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-15" value="采购入库摊分明细表【ts_allocation_purchase】的free_num" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="690" width="200" height="80" as="geometry" />
+          <mxGeometry x="600" y="710" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2iO7tOr9S87eXJx4nzw7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qt3AQ6tV6oZPRFGrHNIX-23" target="2iO7tOr9S87eXJx4nzw7-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2iO7tOr9S87eXJx4nzw7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Qt3AQ6tV6oZPRFGrHNIX-23" target="2iO7tOr9S87eXJx4nzw7-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-23" value="修改入库摊分明细表中的外销数量【outside_sale_num】，并写入销售溯源明细表【ts_trace_saleout】" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="192.5" y="870" width="170" height="60" as="geometry" />
+          <mxGeometry x="192.5" y="890" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2iO7tOr9S87eXJx4nzw7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2iO7tOr9S87eXJx4nzw7-2" target="2iO7tOr9S87eXJx4nzw7-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2iO7tOr9S87eXJx4nzw7-2" value="加入成功ID【ts_task_finished】" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="193.75" y="1000" width="167.5" height="60" as="geometry" />
+          <mxGeometry x="192.5" y="1070" width="167.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2iO7tOr9S87eXJx4nzw7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2iO7tOr9S87eXJx4nzw7-4" target="2iO7tOr9S87eXJx4nzw7-2">
           <mxGeometry relative="1" as="geometry" />
@@ -107,10 +121,22 @@
           <mxGeometry x="20" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2iO7tOr9S87eXJx4nzw7-6" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="217.5" y="1160" width="120" height="60" as="geometry" />
+          <mxGeometry x="216.25" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2iO7tOr9S87eXJx4nzw7-9" value="加入失败ID【ts_task_retry】" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="890" width="167.5" height="60" as="geometry" />
+          <mxGeometry x="390" y="1000" width="167.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2iO7tOr9S87eXJx4nzw7-21" value="ts_saleoutdt表id = source_id&lt;br&gt;ts_saleoutdt表providerId:=药师帮供应商id&lt;br&gt;ts_saleoutdt表AngleId = batchNo&lt;br&gt;类型：销售出库" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="25" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2iO7tOr9S87eXJx4nzw7-25" value="采购入库摊分明细表【ts_allocation_purchase】记录了上游批次信息和原始批次信息，销售溯源明细表必须要从这个入库摊分明细表中获取到这两个信息" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="490" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2iO7tOr9S87eXJx4nzw7-27" value="采购入库摊分明细表【ts_allocation_purchase】找到多条信息，怎么办？" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="590" y="600" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2iO7tOr9S87eXJx4nzw7-29" value="采购入库摊分明细表【ts_allocation_purchase】更新剩余数量？" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="880" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
