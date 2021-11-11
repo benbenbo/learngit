@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-11T08:24:33.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xa6Ig-5TK9jH4fzjFnoo" version="15.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-11T08:28:35.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="gHp7yFOrK_9xHiSQsfNF" version="15.7.1" type="github">
   <diagram id="9YCllT6J75fHZdyW30Lp" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
         <mxCell id="2iO7tOr9S87eXJx4nzw7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qt3AQ6tV6oZPRFGrHNIX-23" target="2iO7tOr9S87eXJx4nzw7-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-23" value="修改入库摊分明细表中的外销数量【outside_sale_num】，并写入销售溯源明细表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Qt3AQ6tV6oZPRFGrHNIX-23" value="修改入库摊分明细表中的外销数量【outside_sale_num】，并写入销售溯源明细表【ts_trace_saleout】" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="192.5" y="870" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2iO7tOr9S87eXJx4nzw7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2iO7tOr9S87eXJx4nzw7-2" target="2iO7tOr9S87eXJx4nzw7-6">
